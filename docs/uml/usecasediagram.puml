@@ -1,0 +1,39 @@
+@startuml
+left to right direction
+skinparam packageStyle rectangle
+
+actor "Utente" as User
+
+package "Sistema gestione collezione carte" {
+    usecase "UC1: Accesso utente" as UC1
+    usecase "UC2: Esplora catalogo carte" as UC2
+    usecase "UC3: Cerca carta per nome" as UC3
+    usecase "UC4: Filtra carte per tipo" as UC4
+    usecase "UC5: Visualizza dettagli carta" as UC5
+    usecase "UC6: Crea album personale" as UC6
+    usecase "UC7: Aggiungi carta ad album" as UC7
+    usecase "UC8: Rimuovi carta da album" as UC8
+    usecase "UC9: Visualizza collezione" as UC9
+    usecase "UC10: Calcola valore collezione" as UC10
+    usecase "UC11: Calcola valore album" as UC11
+    usecase "UC12: Visualizza carte di maggior valore" as UC12
+    usecase "UC13: Esporta report collezione" as UC13
+    usecase "UC14: Consulta prezzo indicativo carta" as UC14
+}
+
+User --> UC1
+User --> UC2
+User --> UC3
+User --> UC4
+User --> UC5
+User --> UC6
+User --> UC7
+User --> UC8
+User --> UC9
+User --> UC10
+User --> UC11
+User --> UC12
+User --> UC13
+User --> UC14
+
+@enduml

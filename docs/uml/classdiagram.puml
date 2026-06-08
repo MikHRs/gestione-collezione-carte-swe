@@ -1,0 +1,122 @@
+@startuml
+skinparam classAttributeIconSize 0
+
+package "entity" {
+    class Card {
+        - id: Long
+        - name: String
+        - expansion: String
+        - type: String
+        - price: BigDecimal
+        - year: int
+    }
+
+    class UserCard {
+        - card: Card
+        - note: String
+    }
+
+    class Album {
+        - name: String
+        - cards: List<UserCard>
+        + addCard(card: UserCard): void
+        + removeCard(card: Card): void
+        + getCards(): List<UserCard>
+    }
+
+    class Collection {
+        - albums: List<Album>
+        + addAlbum(album: Album): void
+        + getAlbum(name: String): Album
+        + getAlbums(): List<Album>
+    }
+
+    class User {
+        - id: Long
+        - username: String
+        - password: String
+        - collection: Collection
+    }
+
+    UserCard --> Card
+    Album --> UserCard
+    Collection --> Album
+    User --> Collection
+}
+
+package "service" {
+    class CatalogService {
+        - catalog: List<Card>
+        + getAllCards(): List<Card>
+        + filterCards(strategy: FilterStrategy): List<Card>
+        + findCardByName(name: String): Card
+    }
+
+    class CollectionService {
+        + addCardToAlbum(user: User, card: Card, album: Album, note: String): void
+        + removeCardFromAlbum(user: User, card: Card, album: Album): void
+        + getCollectionValue(user: User): BigDecimal
+        + getAlbumValue(album: Album): BigDecimal
+        + getTotalCards(user: User): int
+        + getAverageCardValue(user: User): BigDecimal
+        + getMostValuableCards(user: User, limit: int): List<UserCard>
+        + exportCollectionReport(user: User, filePath: String): void
+    }
+
+    class UserService {
+        + login(username: String, password: String): User
+    }
+}
+
+package "strategy" {
+    interface FilterStrategy {
+        + filter(cards: List<Card>): List<Card>
+    }
+
+    class FilterByName {
+        - keyword: String
+        + filter(cards: List<Card>): List<Card>
+    }
+
+    class FilterByType {
+        - type: String
+        + filter(cards: List<Card>): List<Card>
+    }
+
+    FilterStrategy <|.. FilterByName
+    FilterStrategy <|.. FilterByType
+}
+
+package "factory" {
+    class CardFactory {
+        + createCard(data: Map<String, Object>): Card
+    }
+}
+
+package "repository" {
+    class CardLoader {
+        + loadCards(): List<Card>
+    }
+}
+
+package "facade" {
+    class UserFacade {
+        + getCatalog(): List<Card>
+        + filterCatalog(strategy: FilterStrategy): List<Card>
+        + aggiungiCarta(user: User, card: Card, album: Album, note: String): void
+        + mostraValoreCollezione(user: User): BigDecimal
+    }
+}
+
+CatalogService --> CardLoader
+CatalogService --> FilterStrategy
+CardLoader --> CardFactory
+CardFactory --> Card
+CollectionService --> User
+CollectionService --> Album
+CollectionService --> UserCard
+UserFacade --> CatalogService
+UserFacade --> CollectionService
+UserFacade --> UserService
+
+@enduml

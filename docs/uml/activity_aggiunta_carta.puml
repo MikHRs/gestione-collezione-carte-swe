@@ -1,0 +1,35 @@
+@startuml
+title Activity Diagram - Aggiunta carta ad album e aggiornamento valore
+
+start
+
+:Utente accede all'applicazione;
+:Visualizza catalogo carte;
+
+if (Vuole filtrare il catalogo?) then (sì)
+    :Inserisce criterio di filtro;
+    :Il sistema applica la strategia di filtro;
+    :Mostra carte filtrate;
+else (no)
+    :Mostra catalogo completo;
+endif
+
+:Utente seleziona una carta;
+:Il sistema mostra i dettagli della carta;
+
+:Utente seleziona album di destinazione;
+
+if (Album esistente?) then (sì)
+    :Utente conferma aggiunta;
+    :Il sistema crea una UserCard;
+    :Il sistema aggiunge la UserCard all'album;
+    :Il sistema aggiorna il valore dell'album;
+    :Il sistema aggiorna il valore totale della collezione;
+    :Mostra conferma e nuovo valore;
+else (no)
+    :Il sistema segnala che l'album non esiste;
+    :L'utente può creare un nuovo album;
+endif
+
+stop
+@enduml

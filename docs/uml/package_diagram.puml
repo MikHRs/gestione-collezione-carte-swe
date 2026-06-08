@@ -1,0 +1,22 @@
+@startuml
+skinparam packageStyle rectangle
+
+package "view" as view
+package "controller" as controller
+package "facade" as facade
+package "service" as service
+package "entity" as entity
+package "repository" as repository
+package "factory" as factory
+package "strategy" as strategy
+
+view --> controller
+controller --> facade
+facade --> service
+service --> entity
+service --> repository
+service --> strategy
+repository --> factory
+factory --> entity
+
+@enduml
