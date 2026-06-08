@@ -1,0 +1,1290 @@
+[
+  {
+    "id": 1,
+    "name": "Alakazam",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 92.96,
+    "year": 1999
+  },
+  {
+    "id": 2,
+    "name": "Blastoise",
+    "expansion": "Base Set",
+    "type": "Acqua",
+    "price": 60.49,
+    "year": 1999
+  },
+  {
+    "id": 3,
+    "name": "Chansey",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 131.29,
+    "year": 1999
+  },
+  {
+    "id": 4,
+    "name": "Charizard",
+    "expansion": "Base Set",
+    "type": "Fuoco",
+    "price": 39.43,
+    "year": 1999
+  },
+  {
+    "id": 5,
+    "name": "Clefairy",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 126.26,
+    "year": 1999
+  },
+  {
+    "id": 6,
+    "name": "Gyarados",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 26.14,
+    "year": 1999
+  },
+  {
+    "id": 7,
+    "name": "Hitmonchan",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 45.38,
+    "year": 1999
+  },
+  {
+    "id": 8,
+    "name": "Machamp",
+    "expansion": "Base Set",
+    "type": "Lotta",
+    "price": 47.95,
+    "year": 1999
+  },
+  {
+    "id": 9,
+    "name": "Magneton",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 44.16,
+    "year": 1999
+  },
+  {
+    "id": 10,
+    "name": "Mewtwo",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 19.33,
+    "year": 1999
+  },
+  {
+    "id": 11,
+    "name": "Nidoking",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 29.45,
+    "year": 1999
+  },
+  {
+    "id": 12,
+    "name": "Ninetales",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 147.26,
+    "year": 1999
+  },
+  {
+    "id": 13,
+    "name": "Poliwrath",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 86.19,
+    "year": 1999
+  },
+  {
+    "id": 14,
+    "name": "Raichu",
+    "expansion": "Base Set",
+    "type": "Elettro",
+    "price": 72.53,
+    "year": 1999
+  },
+  {
+    "id": 15,
+    "name": "Venusaur",
+    "expansion": "Base Set",
+    "type": "Erba",
+    "price": 39.46,
+    "year": 1999
+  },
+  {
+    "id": 16,
+    "name": "Zapdos",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 134.87,
+    "year": 1999
+  },
+  {
+    "id": 17,
+    "name": "Beedrill",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 139.17,
+    "year": 1999
+  },
+  {
+    "id": 18,
+    "name": "Dragonair",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 135.59,
+    "year": 1999
+  },
+  {
+    "id": 19,
+    "name": "Dugtrio",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 69.79,
+    "year": 1999
+  },
+  {
+    "id": 20,
+    "name": "Electabuzz",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 146.63,
+    "year": 1999
+  },
+  {
+    "id": 21,
+    "name": "Electrode",
+    "expansion": "Base Set",
+    "type": "Elettro",
+    "price": 144.39,
+    "year": 1999
+  },
+  {
+    "id": 22,
+    "name": "Pidgeotto",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 49.01,
+    "year": 1999
+  },
+  {
+    "id": 23,
+    "name": "Arcanine",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 83.94,
+    "year": 1999
+  },
+  {
+    "id": 24,
+    "name": "Charmeleon",
+    "expansion": "Base Set",
+    "type": "Fuoco",
+    "price": 97.48,
+    "year": 1999
+  },
+  {
+    "id": 25,
+    "name": "Dewgong",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 92.81,
+    "year": 1999
+  },
+  {
+    "id": 26,
+    "name": "Dratini",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 113.26,
+    "year": 1999
+  },
+  {
+    "id": 27,
+    "name": "Farfetch'd",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 60.95,
+    "year": 1999
+  },
+  {
+    "id": 28,
+    "name": "Growlithe",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 141.23,
+    "year": 1999
+  },
+  {
+    "id": 29,
+    "name": "Haunter",
+    "expansion": "Base Set",
+    "type": "Psico",
+    "price": 32.95,
+    "year": 1999
+  },
+  {
+    "id": 30,
+    "name": "Ivysaur",
+    "expansion": "Base Set",
+    "type": "Erba",
+    "price": 7.68,
+    "year": 1999
+  },
+  {
+    "id": 31,
+    "name": "Jynx",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 115.32,
+    "year": 1999
+  },
+  {
+    "id": 32,
+    "name": "Kadabra",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 12.98,
+    "year": 1999
+  },
+  {
+    "id": 33,
+    "name": "Kakuna",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 69.36,
+    "year": 1999
+  },
+  {
+    "id": 34,
+    "name": "Machoke",
+    "expansion": "Base Set",
+    "type": "Lotta",
+    "price": 9.22,
+    "year": 1999
+  },
+  {
+    "id": 35,
+    "name": "Magikarp",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 86.06,
+    "year": 1999
+  },
+  {
+    "id": 36,
+    "name": "Magmar",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 52.48,
+    "year": 1999
+  },
+  {
+    "id": 37,
+    "name": "Nidorino",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 56.77,
+    "year": 1999
+  },
+  {
+    "id": 38,
+    "name": "Poliwhirl",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 60.88,
+    "year": 1999
+  },
+  {
+    "id": 39,
+    "name": "Porygon",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 123.54,
+    "year": 1999
+  },
+  {
+    "id": 40,
+    "name": "Raticate",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 28.5,
+    "year": 1999
+  },
+  {
+    "id": 41,
+    "name": "Seel",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 132.67,
+    "year": 1999
+  },
+  {
+    "id": 42,
+    "name": "Wartortle",
+    "expansion": "Base Set",
+    "type": "Acqua",
+    "price": 107.37,
+    "year": 1999
+  },
+  {
+    "id": 43,
+    "name": "Abra",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 121.63,
+    "year": 1999
+  },
+  {
+    "id": 44,
+    "name": "Bulbasaur",
+    "expansion": "Base Set",
+    "type": "Erba",
+    "price": 30.93,
+    "year": 1999
+  },
+  {
+    "id": 45,
+    "name": "Caterpie",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 123.65,
+    "year": 1999
+  },
+  {
+    "id": 46,
+    "name": "Charmander",
+    "expansion": "Base Set",
+    "type": "Fuoco",
+    "price": 44.66,
+    "year": 1999
+  },
+  {
+    "id": 47,
+    "name": "Diglett",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 17.14,
+    "year": 1999
+  },
+  {
+    "id": 48,
+    "name": "Doduo",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 121.11,
+    "year": 1999
+  },
+  {
+    "id": 49,
+    "name": "Drowzee",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 142.04,
+    "year": 1999
+  },
+  {
+    "id": 50,
+    "name": "Gastly",
+    "expansion": "Base Set",
+    "type": "Psico",
+    "price": 42.42,
+    "year": 1999
+  },
+  {
+    "id": 51,
+    "name": "Koffing",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 125.64,
+    "year": 1999
+  },
+  {
+    "id": 52,
+    "name": "Machop",
+    "expansion": "Base Set",
+    "type": "Lotta",
+    "price": 48.96,
+    "year": 1999
+  },
+  {
+    "id": 53,
+    "name": "Magnemite",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 81.41,
+    "year": 1999
+  },
+  {
+    "id": 54,
+    "name": "Metapod",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 33.98,
+    "year": 1999
+  },
+  {
+    "id": 55,
+    "name": "Nidoran♂",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 119.29,
+    "year": 1999
+  },
+  {
+    "id": 56,
+    "name": "Onix",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 31.63,
+    "year": 1999
+  },
+  {
+    "id": 57,
+    "name": "Pidgey",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 95.47,
+    "year": 1999
+  },
+  {
+    "id": 58,
+    "name": "Pikachu",
+    "expansion": "Base Set",
+    "type": "Elettro",
+    "price": 110.9,
+    "year": 1999
+  },
+  {
+    "id": 59,
+    "name": "Poliwag",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 116.39,
+    "year": 1999
+  },
+  {
+    "id": 60,
+    "name": "Ponyta",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 120.24,
+    "year": 1999
+  },
+  {
+    "id": 61,
+    "name": "Rattata",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 77.47,
+    "year": 1999
+  },
+  {
+    "id": 62,
+    "name": "Sandshrew",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 131.04,
+    "year": 1999
+  },
+  {
+    "id": 63,
+    "name": "Squirtle",
+    "expansion": "Base Set",
+    "type": "Acqua",
+    "price": 58.51,
+    "year": 1999
+  },
+  {
+    "id": 64,
+    "name": "Starmie",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 25.46,
+    "year": 1999
+  },
+  {
+    "id": 65,
+    "name": "Staryu",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 85.13,
+    "year": 1999
+  },
+  {
+    "id": 66,
+    "name": "Tangela",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 29.35,
+    "year": 1999
+  },
+  {
+    "id": 67,
+    "name": "Voltorb",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 63.36,
+    "year": 1999
+  },
+  {
+    "id": 68,
+    "name": "Vulpix",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 129.3,
+    "year": 1999
+  },
+  {
+    "id": 69,
+    "name": "Weedle",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 7.95,
+    "year": 1999
+  },
+  {
+    "id": 70,
+    "name": "Clefairy Doll",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 55.58,
+    "year": 1999
+  },
+  {
+    "id": 71,
+    "name": "Computer Search",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 116.25,
+    "year": 1999
+  },
+  {
+    "id": 72,
+    "name": "Devolution Spray",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 53.01,
+    "year": 1999
+  },
+  {
+    "id": 73,
+    "name": "Imposter Professor Oak",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 104.91,
+    "year": 1999
+  },
+  {
+    "id": 74,
+    "name": "Item Finder",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 24.42,
+    "year": 1999
+  },
+  {
+    "id": 75,
+    "name": "Lass",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 84.38,
+    "year": 1999
+  },
+  {
+    "id": 76,
+    "name": "Pokémon Breeder",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 117.75,
+    "year": 1999
+  },
+  {
+    "id": 77,
+    "name": "Pokémon Trader",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 107.31,
+    "year": 1999
+  },
+  {
+    "id": 78,
+    "name": "Scoop Up",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 83.25,
+    "year": 1999
+  },
+  {
+    "id": 79,
+    "name": "Super Energy Removal",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 50.72,
+    "year": 1999
+  },
+  {
+    "id": 80,
+    "name": "Defender",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 47.58,
+    "year": 1999
+  },
+  {
+    "id": 81,
+    "name": "Energy Retrieval",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 50.65,
+    "year": 1999
+  },
+  {
+    "id": 82,
+    "name": "Full Heal",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 98.16,
+    "year": 1999
+  },
+  {
+    "id": 83,
+    "name": "Maintenance",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 16.01,
+    "year": 1999
+  },
+  {
+    "id": 84,
+    "name": "PlusPower",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 68.05,
+    "year": 1999
+  },
+  {
+    "id": 85,
+    "name": "Pokédex",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 38.75,
+    "year": 1999
+  },
+  {
+    "id": 86,
+    "name": "Professor Oak",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 82.04,
+    "year": 1999
+  },
+  {
+    "id": 87,
+    "name": "Revive",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 139.25,
+    "year": 1999
+  },
+  {
+    "id": 88,
+    "name": "Super Potion",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 28.67,
+    "year": 1999
+  },
+  {
+    "id": 89,
+    "name": "Bill",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 80.24,
+    "year": 1999
+  },
+  {
+    "id": 90,
+    "name": "Energy Removal",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 38.12,
+    "year": 1999
+  },
+  {
+    "id": 91,
+    "name": "Gust of Wind",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 115.11,
+    "year": 1999
+  },
+  {
+    "id": 92,
+    "name": "Potion",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 55.65,
+    "year": 1999
+  },
+  {
+    "id": 93,
+    "name": "Switch",
+    "expansion": "Base Set",
+    "type": "Strumento",
+    "price": 73.18,
+    "year": 1999
+  },
+  {
+    "id": 94,
+    "name": "Double Colorless Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 18.96,
+    "year": 1999
+  },
+  {
+    "id": 95,
+    "name": "Fighting Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 62.68,
+    "year": 1999
+  },
+  {
+    "id": 96,
+    "name": "Fire Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 77.04,
+    "year": 1999
+  },
+  {
+    "id": 97,
+    "name": "Grass Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 111.81,
+    "year": 1999
+  },
+  {
+    "id": 98,
+    "name": "Lightning Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 32.07,
+    "year": 1999
+  },
+  {
+    "id": 99,
+    "name": "Psychic Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 97.62,
+    "year": 1999
+  },
+  {
+    "id": 100,
+    "name": "Water Energy",
+    "expansion": "Base Set",
+    "type": "Energia",
+    "price": 79.7,
+    "year": 1999
+  },
+  {
+    "id": 101,
+    "name": "Clefable",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 8.12,
+    "year": 1999
+  },
+  {
+    "id": 102,
+    "name": "Electrode",
+    "expansion": "Jungle",
+    "type": "Elettro",
+    "price": 137.45,
+    "year": 1999
+  },
+  {
+    "id": 103,
+    "name": "Flareon",
+    "expansion": "Jungle",
+    "type": "Fuoco",
+    "price": 54.36,
+    "year": 1999
+  },
+  {
+    "id": 104,
+    "name": "Jolteon",
+    "expansion": "Jungle",
+    "type": "Elettro",
+    "price": 91.01,
+    "year": 1999
+  },
+  {
+    "id": 105,
+    "name": "Kangaskhan",
+    "expansion": "Jungle",
+    "type": "Normale",
+    "price": 137.41,
+    "year": 1999
+  },
+  {
+    "id": 106,
+    "name": "Mr. Mime",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 42.01,
+    "year": 1999
+  },
+  {
+    "id": 107,
+    "name": "Nidoqueen",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 53.41,
+    "year": 1999
+  },
+  {
+    "id": 108,
+    "name": "Pidgeot",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 38.0,
+    "year": 1999
+  },
+  {
+    "id": 109,
+    "name": "Pinsir",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 49.12,
+    "year": 1999
+  },
+  {
+    "id": 110,
+    "name": "Scyther",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 137.38,
+    "year": 1999
+  },
+  {
+    "id": 111,
+    "name": "Snorlax",
+    "expansion": "Jungle",
+    "type": "Normale",
+    "price": 124.78,
+    "year": 1999
+  },
+  {
+    "id": 112,
+    "name": "Vaporeon",
+    "expansion": "Jungle",
+    "type": "Acqua",
+    "price": 145.33,
+    "year": 1999
+  },
+  {
+    "id": 113,
+    "name": "Venomoth",
+    "expansion": "Jungle",
+    "type": "Veleno",
+    "price": 135.04,
+    "year": 1999
+  },
+  {
+    "id": 114,
+    "name": "Victreebel",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 72.8,
+    "year": 1999
+  },
+  {
+    "id": 115,
+    "name": "Vileplume",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 119.67,
+    "year": 1999
+  },
+  {
+    "id": 116,
+    "name": "Wigglytuff",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 141.38,
+    "year": 1999
+  },
+  {
+    "id": 117,
+    "name": "Butterfree",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 16.07,
+    "year": 1999
+  },
+  {
+    "id": 118,
+    "name": "Dodrio",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 50.77,
+    "year": 1999
+  },
+  {
+    "id": 119,
+    "name": "Exeggutor",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 124.59,
+    "year": 1999
+  },
+  {
+    "id": 120,
+    "name": "Fearow",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 54.24,
+    "year": 1999
+  },
+  {
+    "id": 121,
+    "name": "Gloom",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 48.24,
+    "year": 1999
+  },
+  {
+    "id": 122,
+    "name": "Lickitung",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 37.95,
+    "year": 1999
+  },
+  {
+    "id": 123,
+    "name": "Marowak",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 113.37,
+    "year": 1999
+  },
+  {
+    "id": 124,
+    "name": "Nidorina",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 92.85,
+    "year": 1999
+  },
+  {
+    "id": 125,
+    "name": "Parasect",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 121.29,
+    "year": 1999
+  },
+  {
+    "id": 126,
+    "name": "Persian",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 86.55,
+    "year": 1999
+  },
+  {
+    "id": 127,
+    "name": "Primeape",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 21.0,
+    "year": 1999
+  },
+  {
+    "id": 128,
+    "name": "Rapidash",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 6.62,
+    "year": 1999
+  },
+  {
+    "id": 129,
+    "name": "Rhydon",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 63.17,
+    "year": 1999
+  },
+  {
+    "id": 130,
+    "name": "Seaking",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 30.05,
+    "year": 1999
+  },
+  {
+    "id": 131,
+    "name": "Tauros",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 46.56,
+    "year": 1999
+  },
+  {
+    "id": 132,
+    "name": "Weepinbell",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 13.32,
+    "year": 1999
+  },
+  {
+    "id": 133,
+    "name": "Bellsprout",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 83.52,
+    "year": 1999
+  },
+  {
+    "id": 134,
+    "name": "Cubone",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 138.66,
+    "year": 1999
+  },
+  {
+    "id": 135,
+    "name": "Eevee",
+    "expansion": "Jungle",
+    "type": "Normale",
+    "price": 93.17,
+    "year": 1999
+  },
+  {
+    "id": 136,
+    "name": "Exeggcute",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 128.14,
+    "year": 1999
+  },
+  {
+    "id": 137,
+    "name": "Goldeen",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 22.07,
+    "year": 1999
+  },
+  {
+    "id": 138,
+    "name": "Jigglypuff",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 141.87,
+    "year": 1999
+  },
+  {
+    "id": 139,
+    "name": "Mankey",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 38.53,
+    "year": 1999
+  },
+  {
+    "id": 140,
+    "name": "Meowth",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 72.61,
+    "year": 1999
+  },
+  {
+    "id": 141,
+    "name": "Nidoran♀",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 123.24,
+    "year": 1999
+  },
+  {
+    "id": 142,
+    "name": "Oddish",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 125.59,
+    "year": 1999
+  },
+  {
+    "id": 143,
+    "name": "Paras",
+    "expansion": "Jungle",
+    "type": "Erba",
+    "price": 46.86,
+    "year": 1999
+  },
+  {
+    "id": 144,
+    "name": "Pikachu",
+    "expansion": "Jungle",
+    "type": "Elettro",
+    "price": 32.58,
+    "year": 1999
+  },
+  {
+    "id": 145,
+    "name": "Rhyhorn",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 50.85,
+    "year": 1999
+  },
+  {
+    "id": 146,
+    "name": "Spearow",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 11.56,
+    "year": 1999
+  },
+  {
+    "id": 147,
+    "name": "Venonat",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 93.84,
+    "year": 1999
+  },
+  {
+    "id": 148,
+    "name": "Poké Ball",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 11.53,
+    "year": 1999
+  },
+  {
+    "id": 149,
+    "name": "Pokémon Breeder",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 91.69,
+    "year": 1999
+  },
+  {
+    "id": 150,
+    "name": "Energy Search",
+    "expansion": "Jungle",
+    "type": "Energia",
+    "price": 84.14,
+    "year": 1999
+  },
+  {
+    "id": 151,
+    "name": "Pokémon Trader",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 55.71,
+    "year": 1999
+  },
+  {
+    "id": 152,
+    "name": "Recycle",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 26.02,
+    "year": 1999
+  },
+  {
+    "id": 153,
+    "name": "Sleep",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 134.11,
+    "year": 1999
+  },
+  {
+    "id": 154,
+    "name": "Snivel",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 65.96,
+    "year": 1999
+  },
+  {
+    "id": 155,
+    "name": "PlusPower",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 120.02,
+    "year": 1999
+  },
+  {
+    "id": 156,
+    "name": "Full Heal",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 71.54,
+    "year": 1999
+  },
+  {
+    "id": 157,
+    "name": "Gambler",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 141.69,
+    "year": 1999
+  },
+  {
+    "id": 158,
+    "name": "Mr. Fuji",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 34.02,
+    "year": 1999
+  },
+  {
+    "id": 159,
+    "name": "Bill",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 108.43,
+    "year": 1999
+  },
+  {
+    "id": 160,
+    "name": "Switch",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 144.7,
+    "year": 1999
+  },
+  {
+    "id": 161,
+    "name": "Potion",
+    "expansion": "Jungle",
+    "type": "Strumento",
+    "price": 32.52,
+    "year": 1999
+  }
+]
