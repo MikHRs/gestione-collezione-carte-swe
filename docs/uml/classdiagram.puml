@@ -14,6 +14,15 @@ package "entity" {
     class UserCard {
         - card: Card
         - note: String
+        - quantity: int
+        - condition: String
+        + getCard(): Card
+        + getNote(): String
+        + getQuantity(): int
+        + getCondition(): String
+        + setNote(note: String): void
+        + setQuantity(quantity: int): void
+        + setCondition(condition: String): void
     }
 
     class Album {
@@ -44,6 +53,19 @@ package "entity" {
     User --> Collection
 }
 
+package "pricing" {
+    interface PriceProvider {
+        + getPrice(card: Card): BigDecimal
+    }
+
+    class StaticCatalogPriceProvider {
+        + getPrice(card: Card): BigDecimal
+    }
+
+    PriceProvider <|.. StaticCatalogPriceProvider
+    StaticCatalogPriceProvider --> Card
+}
+
 package "service" {
     class CatalogService {
         - catalog: List<Card>
@@ -55,16 +77,40 @@ package "service" {
     class CollectionService {
         + addCardToAlbum(user: User, card: Card, album: Album, note: String): void
         + removeCardFromAlbum(user: User, card: Card, album: Album): void
-        + getCollectionValue(user: User): BigDecimal
+    }
+
+    class CollectionValuationService {
+        - priceProvider: PriceProvider
         + getAlbumValue(album: Album): BigDecimal
+        + getCollectionValue(user: User): BigDecimal
         + getTotalCards(user: User): int
         + getAverageCardValue(user: User): BigDecimal
         + getMostValuableCards(user: User, limit: int): List<UserCard>
+    }
+
+    class ReportService {
+        - valuationService: CollectionValuationService
         + exportCollectionReport(user: User, filePath: String): void
     }
 
     class UserService {
         + login(username: String, password: String): User
+    }
+}
+
+package "repository" {
+    class CardLoader {
+        + loadCards(): List<Card>
+    }
+
+    class UserCollectionRepository {
+        + saveCollection(user: User, filePath: String): void
+    }
+}
+
+package "factory" {
+    class CardFactory {
+        + createCard(data: Map<String, Object>): Card
     }
 }
 
@@ -87,24 +133,17 @@ package "strategy" {
     FilterStrategy <|.. FilterByType
 }
 
-package "factory" {
-    class CardFactory {
-        + createCard(data: Map<String, Object>): Card
-    }
-}
-
-package "repository" {
-    class CardLoader {
-        + loadCards(): List<Card>
-    }
-}
-
 package "facade" {
     class UserFacade {
+        - catalogService: CatalogService
+        - collectionService: CollectionService
+        - valuationService: CollectionValuationService
         + getCatalog(): List<Card>
         + filterCatalog(strategy: FilterStrategy): List<Card>
         + aggiungiCarta(user: User, card: Card, album: Album, note: String): void
+        + rimuoviCarta(user: User, card: Card, album: Album): void
         + mostraValoreCollezione(user: User): BigDecimal
+        + mostraValoreAlbum(album: Album): BigDecimal
     }
 }
 
@@ -112,11 +151,28 @@ CatalogService --> CardLoader
 CatalogService --> FilterStrategy
 CardLoader --> CardFactory
 CardFactory --> Card
+
 CollectionService --> User
 CollectionService --> Album
 CollectionService --> UserCard
+
+CollectionValuationService --> User
+CollectionValuationService --> Album
+CollectionValuationService --> UserCard
+CollectionValuationService --> PriceProvider
+
+ReportService --> CollectionValuationService
+ReportService --> User
+ReportService --> Album
+ReportService --> UserCard
+
+UserCollectionRepository --> User
+UserCollectionRepository --> Album
+UserCollectionRepository --> UserCard
+UserCollectionRepository --> Card
+
 UserFacade --> CatalogService
 UserFacade --> CollectionService
-UserFacade --> UserService
+UserFacade --> CollectionValuationService
 
 @enduml
